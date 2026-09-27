@@ -6,7 +6,7 @@
 
 - `web/`：Vue 3、Element Plus、Vite 前端。
 - `server/`：Spring Boot API、权限、采集、RAG 和定时任务。
-- `data/knowledge/知识库.pdf`：原始 377 页制度 PDF 的项目副本。
+- `data/knowledge/knowledge_base.pdf`：原始 377 页制度 PDF 的项目副本。
 - `docs/`：产品需求、架构说明、实施大纲及原始要求文档。
 - `docker-compose.yml`：PostgreSQL 16 + pgvector 本地数据库。
 - `scripts/`：读取本地 `.env` 并启动前后端的 PowerShell 脚本。
@@ -41,7 +41,7 @@ Spring Boot 3.4 与 Java 25 的组合超出 Spring Boot 3.4 官方兼容范围�
 
 - 本地注册创建的账号是学生角色。
 - 管理员首次启动时通过 `APP_ADMIN_USERNAME` 和 `APP_ADMIN_PASSWORD` 创建。
-- 进入管理工作台，运行采集任务；也可上传 `data/knowledge/知识库.pdf` 建立检索索引。
+- 进入管理工作台，运行采集任务；也可上传 `data/knowledge/knowledge_base.pdf` 建立检索索引。
 - 四个专区的名称与来源映射仍需项目方确认。第三个专区默认指校园新闻网；第四个专区可由管理员添加更多经确认的 `bigc.edu.cn` 页面。
 - 定时采集默认关闭；需要时在 .env 设置 CRAWLER_ENABLED=true。周报每周一 08:00（北京时间）生成；只有用户主动开启邮件周报并填写邮箱后，系统才会发送，且还需配置 MAIL_HOST、MAIL_USERNAME、MAIL_PASSWORD 和 MAIL_FROM。
 

@@ -6,8 +6,8 @@
 
 项目要求文档提出了校园通知语义检索、个性化订阅、智能周报、SSE、多轮会话与安全权限等功能。知识库 PDF 共 377 页，主要收录北京印刷学院教学与管理制度，涉及教学质量、教务、学务、实践教学及教材管理等主题。PDF 目录含有带年份的计划和方案，后续需要确认版本及现行状态，不能默认所有规定仍然有效。
 
-- 项目要求文档：`D:\YinYuanBaiShiTong_project\印苑百事通的知识库\印苑百事通要求.docx`
-- 知识库 PDF：`D:\YinYuanBaiShiTong_project\印苑百事通的知识库\知识库.pdf`
+- 项目要求文档：`Project/_File/docs/project_requirements.docx`
+- 知识库 PDF：`Project/_File/data/knowledge/knowledge_base.pdf`
 - 展示视频：本阶段不查看，等待用户后续指示。
 - API key 文件：本阶段不读取内容，在真实 API 联调前按本大纲安排处理。
 
@@ -81,8 +81,8 @@
 
 记录材料用途、格式、更新时间和处理状态：
 
-- `知识库.pdf`：制度及教学管理资料。
-- `印苑百事通要求.docx`：产品与技术要求。
+- `knowledge_base.pdf`：制度及教学管理资料。
+- `project_requirements.docx`：产品与技术要求。
 - 展示 PPT：本阶段未使用，后续可按需要核对设计意图。
 - 展示视频：按用户要求暂不打开。
 - `DeepSeek_API_key.txt`：只登记文件存在，不读取、不复制其内容。

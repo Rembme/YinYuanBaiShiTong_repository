@@ -5,8 +5,8 @@
 ## 目录
 
 - `Project/_File/`：应用源码、数据库配置和运行说明，详见其中的 `README.md`。
-- `Project/_File/data/knowledge/知识库.pdf`：应用使用的校内制度资料。
-- `大纲/` 与 `大纲_补充.md`：项目范围和工作计划。
+- `Project/_File/data/knowledge/knowledge_base.pdf`：应用使用的校内制度资料。
+- `outlines/` 与 `outline_supplement.md`：项目范围和工作计划。
 
 ## 本地运行
 
