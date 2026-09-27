@@ -1,0 +1,23 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+
+# Java
+server/target/
+*.class
+*.log
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+

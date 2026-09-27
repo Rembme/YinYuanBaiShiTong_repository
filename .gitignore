@@ -1,0 +1,19 @@
+# Keep local credentials out of the public repository.
+**/.env
+**/.env.*
+!**/.env.example
+**/application-local.yml
+**/application-local.yaml
+
+# Build output, dependencies, and editor state.
+**/target/
+**/node_modules/
+**/dist/
+**/.vite/
+**/tsconfig.tsbuildinfo
+**/*.class
+**/*.log
+**/.idea/
+**/.vscode/
+**/.DS_Store
+**/Thumbs.db
